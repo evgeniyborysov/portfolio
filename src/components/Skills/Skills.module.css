@@ -1,0 +1,35 @@
+.skills {
+	background-color: darkolivegreen;
+}
+
+.title {
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.skillsContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 100px;
+}
+
+.wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+@media (max-width: 1200px) {
+	.wrapper {
+		gap: 10px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+/* @media (max-width: 865px) {
+	.wrapper {
+		flex-wrap: wrap;
+	}
+} */

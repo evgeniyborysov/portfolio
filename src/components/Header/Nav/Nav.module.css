@@ -1,0 +1,19 @@
+.navList {
+	width: 300px;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid black;
+}
+.navLink {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media (max-width: 400px) {
+	.navList {
+		width: 100%;
+		gap: 10px;
+	}
+}

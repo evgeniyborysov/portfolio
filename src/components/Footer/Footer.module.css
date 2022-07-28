@@ -1,0 +1,45 @@
+.footer {
+	background-color: lightskyblue;
+}
+
+.footerContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.wrapper {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+	gap: 10px;
+}
+
+.first,
+.second {
+	display: flex;
+	gap: 10px;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: chocolate;
+}
+
+span {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 740px) {
+	.wrapper {
+		flex-wrap: wrap;
+	}
+}

@@ -1,0 +1,16 @@
+.header {
+	background-color: aqua;
+}
+
+.headerContainer {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+@media (max-width: 400px) {
+	.headerContainer {
+		justify-content: center;
+	}
+}
